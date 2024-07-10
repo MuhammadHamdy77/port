@@ -847,7 +847,7 @@ header a.logo img {
 }
 
 .home {
-  /* background-image: url("../img/1.jpg"); */
+  background-image: url("../img/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1015,7 +1015,7 @@ header a.logo img {
 }
 
 .skills {
-  /* background-image: url("../img/2.jpg"); */
+  background-image: url("../img/2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1023,7 +1023,7 @@ header a.logo img {
 }
 
 .portfolio {
-  /* background-image: url("../img/4.jpg"); */
+  background-image: url("../img/4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
