@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery.pagepiling.css">
+    <link rel="stylesheet" href="css/tootik.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/fontawesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="shortcut icon" href="img/fav.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hamdi</title>
+</head>
+<body>
+
+<!-- START HEADER -->
+<header>
+  <!--Navigation-->
+  <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+      <a href="#home" title="Logo" class="logo">
+          <!--Logo Default-->
+          <div class="mega-logo">
+              <img src="img/logo.png" alt="logo" class="ml-lg-3 m-0">
+          </div>
+      </a>
+
+      <!--Side Menu Button-->
+      <div class="navigation-toggle">
+          <ul class="slider-social toggle-btn my-0">
+              <li>
+                  <a href="javascript:void(0);" class="sidemenu_btn" id="sidemenu_toggle">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+  <!--Side Nav-->
+  <div class="side-menu">
+      <span id="btn_sideNavClose">
+        <i class="fas fa-times btnclose"></i>
+      </span>
+      <div class="inner-wrapper">
+          <nav class="side-nav w-100">
+              <a href="#home" title="Logo" class="logo navbar-brand">
+                  <img src="img/logo.png"  alt="logo">
+              </a>
+              <ul class="navbar-nav text-capitalize">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#timeline">Timeline</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+              <div class="text-center sidebar_btn">
+                  <a href="MohammedHamdiFrontend-Angular.pdf" target="_blank" download class="btn btn-medium btn-rounded btn-yellow text-capitalize">Download Resume</a>
+              </div>
+          </nav>
+
+          <div class="side-footer w-100">
+              <ul class="social-icons-simple">
+                  <li><a class="social-icon" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                  <li><a class="social-icon" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                  <li><a class="social-icon" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                  <li><a class="social-icon" href="https://www.linkedin.com/in/muhammed-hamdi00/"><i class="fab fa-linkedin-in"></i> </a> </li>
+              </ul>
+              <p>&copy; <span class="dateNow"></span> Muhammed Hamdi</p>
+          </div>
+      </div>
+  </div>
+  <a id="close_side_menu" href="javascript:void(0);"></a>
+</header>
+<!-- END HEADER -->
+
+<div id="pagepiling">
+	<div class="section home">
+        <div class="homeBox container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 word">
+                   <div>
+                        <h1 class="hello">HELLO, I AM</h1>
+                        <h1>Muhammed Hamdi. </h1>
+                        <p>Senior Angular developer with over 4 years of experience and extensive knowledge in the business field, acquired through my combined education. I am seeking a new challenge within your organization to fully leverage my skills and domain knowledge, and to make a significant contribution to the company's success.</p>
+                   </div>
+
+                <div class="circle-one circle" data-tootik="About">
+                    <span >
+                       <a href="#about">
+                           <span class="animated-circle position-relative"></span>
+                       </a>
+                    </span>
+               </div>
+               <!-- Circle-Two -->
+               <div class="circle-two circle" data-tootik="Carrer Timeline" data-tootik-conf="left">
+                    <span >
+                       <a href="#timeline">
+                           <span class="animated-circle position-relative"></span>
+                       </a>
+                    </span>
+               </div>
+               <!-- Circle-Three -->
+               <div class="circle-four circle" data-tootik="Portfolio" data-tootik-conf="left" >
+                 <span >
+                       <a href="#portfolio">
+                           <span class="animated-circle position-relative"></span>
+                       </a>
+                 </span>
+               </div>
+               <!-- Circle-Five -->
+               <div class="circle-five circle"  data-tootik="Contact" data-tootik-conf="left" >
+                     <span>
+                           <a href="#contact"  >
+                               <span class="animated-circle position-relative"></span>
+                           </a>
+                     </span>
+               </div>
+                </div>
+                <div class="col-md-6 col-sm-12 image">
+                    <img src="img/me.png" alt="" srcset="">
+              </div>
+            </div>
+         </div>
+    </div>
+	<div class="section py-5 p-md-0 skills" id="about" data-anchor="about">
+        <div class="container">
+            <h3 class="text-uppercase">
+                <span class="text-yellow">Front-End Developer</span>
+            </h3>
+            <p class="py-2 alt-font">Specialized in Angular, And Ui Development.</p>
+
+            <div class="row">
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/html.png" alt="">
+                    <p class="py-2 alt-font text-center">HTML</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/css.png" alt="">
+                    <p class="py-2 alt-font text-center">CSS</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/sass.png" alt="">
+                    <p class="py-2 alt-font text-center">Sass</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/media%20query.png" alt="">
+                    <p class="py-2 alt-font text-center">Media Query</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/bootstrap.png" alt="">
+                    <p class="py-2 alt-font text-center">Bootstrap</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/tilwind.png" alt="">
+                    <p class="py-2 alt-font text-center">Tilwind</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/js.png" alt="">
+                    <p class="py-2 alt-font text-center">JavaScript</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/jquery-logo.png" alt="">
+                    <p class="py-2 alt-font text-center">Jquery</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/2048px-Angular_full_color_logo.svg.png" alt="">
+                    <p class="py-2 alt-font text-center">Angular 17 </p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/ngrx.png" alt="">
+                    <p class="py-2 alt-font text-center">Ngrx</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/matrial.png" alt="">
+                    <p class="py-2 alt-font text-center">Angular Matrial</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/primeng.webp" alt="">
+                    <p class="py-2 alt-font text-center">Primeng</p>
+                </div>
+              
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/rest.png" alt="">
+                    <p class="py-2 alt-font text-center">Restful Api</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/qraphql.png" alt="">
+                    <p class="py-2 alt-font text-center">Graphql</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/firebase.png" alt="">
+                    <p class="py-2 alt-font text-center">Firebase</p>
+                </div>
+                <div class="text-center col-md-2 col-3">
+                    <img class="w-50 m-auto" src="img/skills/photoshop.png" alt="">
+                    <p class="py-2 alt-font text-center">Photoshop</p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="section py-5 p-md-0 career" id="timeline" data-anchor="timeline" >
+            <div class="container">
+                <div class="row pb-5 heading-row">
+                    <div class="col-12 col-md-7">
+                        <h3 class="main-font text-uppercase"><span class="text-yellow d-block text-uppercase"> My Career </span> <span> History &amp; Timeline </span></h3>
+                        <p class="py-2 alt-font">Please look what I have done so far in my life.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cd-horizontal-timeline loaded">
+                            <div class="timeline">
+                                <div class="events-wrapper">
+                                    <div class="events" style="width: 1950px; transform: translateX(0px);">
+                                        <ol>
+                                            <li><a href="#" data-date="06/06/2018" class="selected" style="left: 130px;">2018</a></li>
+                                            <li><a href="#" data-date="01/06/2019" style="left: 325px;" class="">2019</a></li>
+                                            <li><a href="#" data-date="01/01/2020" style="left: 520px;" class="">2020</a></li>
+                                            <li><a href="#" data-date="15/08/2021" style="left: 650px;" class="">2021</a></li>
+                                            <li><a href="#" data-date="1/07/2022" style="left: 650px;" class="">2022</a></li>
+                                            <li><a href="#" data-date="1/01/2023" style="left: 650px;" class="">2023</a></li>
+                                            <li><a href="#" data-date="1/07/2024" style="left: 650px;" class="">2024</a></li>
+                                           
+                                        </ol>
+                                        <span class="filling-line" aria-hidden="true" style="transform: scaleX(0.2);"></span>
+                                    </div>
+                                </div>
+                                <ul class="cd-timeline-navigation">
+                                    <li><a href="#" class="prev inactive">Prev</a></li>
+                                    <li><a href="#" class="next">Next</a></li>
+                                </ul>
+                                <!-- Timeline-Navigation -->
+                            </div>
+                            <!-- Timeline -->
+                            <div class="events-content" style="height: 261.8px;">
+                                <ol>
+                                    <li  data-date="06/06/2018" class="selected">
+                                        <!-- Main Content Div -->
+                                        <div class="col-12 pl-md-0">
+                                          <div class="main-content text-uppercase">
+                                              <h4 class="text-yellow main-font font-weight-normal">01 May 2018</h4>
+                                              <h2 class="main-font">I had graduated from university</h2>
+                                          </div>
+                                      </div>
+                                        <!-- Sub Content Div -->
+                                        <div class="row align-items-center d-none d-md-flex">
+                                            <div class="col-12 col-md-4 pl-md-0">
+                                                <div class="sub-content">
+                                                    <h5 class="text-uppercase main-font text-yellow">Faculty && Feild</h5>
+                                                    <p class="alt-font m-0"> <span class="text-yellow main-font">Faculty : </span> Faculty of Computer and Informatics.  </p>
+                                                    <p class="alt-font m-0"> <span class="text-yellow main-font">Feild : </span> Management information system.  </p>
+                                                    <p class="alt-font m-0"> <span class="text-yellow main-font">Grade : </span> Good.  </p>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-4">
+                                                <div class="sub-content">
+                                                    <h5 class="text-uppercase main-font text-yellow">Graduation Project</h5>
+                                                    <p class="alt-font main-font m-0"> <span class="text-yellow main-font">My Role : </span> Team Leader , Front-End Developer , Ui/Ux Designer. </p>
+                                                    <p class="alt-font main-font m-0"> <span class="text-yellow main-font">Site : </span> <a href="#">----</a> </p>
+                                                    <p class="alt-font main-font m-0"> <span class="text-yellow main-font">Grade : </span> Excellent </p>
+                                                  
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-4 pr-md-0">
+                                                <div class="sub-content">
+                                                    <h5 class="text-uppercase main-font text-yellow">Graduation Project Description</h5>
+                                                    <p class="alt-font">A car rental website</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li data-date="01/06/2019" class="">
+                                        <!-- Main Content Div -->
+                                        <div class="col-12 pl-md-0">
+                                            <div class="main-content text-uppercase">
+                                                <h4 class="text-yellow main-font font-weight-normal">2019</h4>
+                                                <h2 class="main-font">Course Fullstack Developer (Route Academy)</h2>
+                                            </div>
+                                        </div>
+                                        <!-- Sub Content Div -->
+                                        <div class="row align-items-center mt-2  d-none d-md-flex">
+
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>HTML.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>css.</p>                                          
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>JS.</p>                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>Bootstrap.</p>          
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>Basic Php</p>          
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>Basic Laravel</p>          
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>Jquery</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>Ajax</p>                                          
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>Mediaquery</p>                                                                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>Typescript</p>         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li data-date="01/01/2020" class="">
+                                        <!-- Main Content Div -->
+                                        <div class="col-12 pl-md-0">
+                                            <div class="main-content text-uppercase">
+                                                <h4 class="text-yellow main-font font-weight-normal">Jan 2021</h4>
+                                                <h2 class="main-font">Front-End Developer - Spc.tech Company</h2>
+                                            </div>
+                                        </div>
+                                        <!-- Sub Content Div -->
+                                        <div class="row align-items-center  d-none d-md-flex">
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span>  Designed and updated layouts to meet usability and performance requirements.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Pinpoint user experience issues to devise targeted suggestions for creating better user experience.</p>                                          
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Ensuring web design is optimized for smartphones.</p>                
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Working with backend team to build best solutions and logic and searching in problems.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build reusable code and libraries for future use.</p>                                          
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Testing the site during development for usability and fixing any bugs</p>                                                                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Collaborate with other team members and stakeholders.</p>                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li data-date="15/08/2021" class="">
+                                        <!-- Main Content Div -->
+                                        <div class="col-12 pl-md-0">
+                                            <div class="main-content text-uppercase">
+                                                <h4 class="text-yellow main-font font-weight-normal">2021  - Jul 2022</h4>
+                                                <h2 class="main-font">Frontend Developer - Umsco company <span class="text-yellow"></span>  </h2>
+                                            </div>
+                                        </div>
+                                        <!-- Sub Content Div -->
+                                        <div class="row align-items-center  d-none d-md-flex">
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">                                       
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build Reusable Angular Project Structure For Serve All Projects.</p>                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build reusable components and service for future use.</p>                                          
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Make All Integration Between Angular And Back-End.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Make Great Effort For Solving Problems.</p>                                           
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build Restful And GraphQl Api Service.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Testing the site during development for usability and fixing any bugs</p>                                                                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Collaborate with other team members and stakeholders.</p>       
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Working in agile environment.</p>       
+                                                             
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li data-date="1/07/2022" class="">
+                                        <!-- Main Content Div -->
+                                        <div class="col-12 pl-md-0">
+                                            <div class="main-content text-uppercase">
+                                                <h4 class="text-yellow main-font font-weight-normal">2022  - Oct 2023</h4>
+                                                <h2 class="main-font">Frontend Developer - ( AASTA ) Arab Academy <span class="text-yellow"> (Remote) </span></h2>
+                                            </div>
+                                        </div>
+                                        <!-- Sub Content Div -->
+                                        <div class="row align-items-center  d-none d-md-flex">
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">                                       
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build Reusable Angular Project Structure For Serve All Projects.</p>                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build reusable components and service for future use.</p>                                          
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Make All Integration Between Angular And Back-End.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Make Great Effort For Solving Problems.</p>                                           
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build Restful And GraphQl Api Service.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Testing the site during development for usability and fixing any bugs</p>                                                                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Collaborate with other team members and stakeholders.</p>       
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Working in agile environment.</p>       
+                                                             
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li data-date="1/01/2023" class="">
+                                        <!-- Main Content Div -->
+                                        <div class="col-12 pl-md-0">
+                                            <div class="main-content text-uppercase">
+                                                <h4 class="text-yellow main-font font-weight-normal">2023  - Jun 2024</h4>
+                                                <h2 class="main-font">Frontend Developer - Rateemah <span class="text-yellow"></span></h2>
+                                            </div>
+                                        </div>
+                                        <!-- Sub Content Div -->
+                                        <div class="row align-items-center  d-none d-md-flex">
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">                                       
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build Reusable Angular Project Structure For Serve All Projects.</p>                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build reusable components and service for future use.</p>                                          
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Make All Integration Between Angular And Back-End.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Make Great Effort For Solving Problems.</p>                                           
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build Restful And GraphQl Api Service.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Testing the site during development for usability and fixing any bugs</p>                                                                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Collaborate with other team members and stakeholders.</p>       
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Working in agile environment.</p>       
+                                                             
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li data-date="1/07/2024" class="">
+                                        <!-- Main Content Div -->
+                                        <div class="col-12 pl-md-0">
+                                            <div class="main-content text-uppercase">
+                                                <h4 class="text-yellow main-font font-weight-normal">Jul 2024  - Current</h4>
+                                                <h2 class="main-font">Senior Frontend Developer - NTG Clarity <span class="text-yellow"></span></h2>
+                                            </div>
+                                        </div>
+                                        <!-- Sub Content Div -->
+                                        <div class="row align-items-center  d-none d-md-flex">
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">                                       
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build Reusable Angular Project Structure For Serve All Projects.</p>                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build reusable components and service for future use.</p>                                          
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Make All Integration Between Angular And Back-End.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Make Great Effort For Solving Problems.</p>                                           
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="sub-content">
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Build Restful And GraphQl Api Service.</p>                                           
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Testing the site during development for usability and fixing any bugs</p>                                                                
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Collaborate with other team members and stakeholders.</p>       
+                                                    <p class="alt-font main-font my-2"><span class="text-yellow">- </span> Working in agile environment.</p>       
+                                                             
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+	<div class="section py-5 p-md-0 portfolio" id="portfolio" data-anchor="portfolio">
+            <div class="container">
+                <h3 class="text-uppercase">
+                    <span class="text-yellow">PORTFOLIO</span><br>
+                    MY RECENT WORK
+                </h3>
+                <p class="py-2 alt-font pb-5 ">I believe in design and code and that is my passion throughout my life.</p>
+
+
+                      
+                        <div class="row" style="position: relative;">
+                            <div class="col-sm-12">
+                                <div class="owl-carousel text-center owl-theme">
+                                            <div class="item cloned">
+                                                <div class="pic part-1">
+                                                    <a class="box-content" target="_blank" href="https://muhammadhamdy77.github.io/Work_Kids/">
+                                                    </a>
+                                                </div> 
+                                            </div>
+
+                                            <div class="item cloned">
+                                                <div class="pic part-2">
+                                                    <a class="box-content" target="_blank" href="https://muhammadhamdy77.github.io/oooh-data/">
+                                                    </a>
+                                                </div> 
+                                            </div>
+
+
+                                            <div class="item cloned">
+                                                <div class="pic part-3">
+                                                    <a class="box-content" target="_blank" href="https://t-alrefaey.net/">
+                                                    </a>
+                                                </div> 
+                                            </div>
+
+                                            <div class="item cloned">
+                                                <div class="pic part-4">
+                                                    <a class="box-content" target="_blank" href="https://muhammadhamdy77.github.io/Erdunt/">
+                                                    </a>
+                                                </div> 
+                                            </div>
+
+                                            <div class="item cloned">
+                                                <div class="pic part-5">
+                                                    <a class="box-content" target="_blank" href="http://v4.rateemah.com/">
+                                                    </a>
+                                                </div> 
+                                            </div>
+
+                                            <div class="item cloned">
+                                                <div class="pic part-6">
+                                                    <a class="box-content" target="_blank" href="https://traof.org.sa/#/web">
+                                                    </a>
+                                                </div> 
+                                            </div>
+                                            <div class="item cloned">
+                                                <div class="pic part-7">
+                                                    <a class="box-content" target="_blank" href="https://binaio.com/">
+                                                    </a>
+                                                </div> 
+                                            </div>
+                                            <div class="item cloned">
+                                                <div class="pic part-8">
+                                                    <a class="box-content" target="_blank" href="https://muhammadhamdy77.github.io/El-daawa-islamic-/">
+                                                    </a>
+                                                </div> 
+                                            </div>
+                                            <div class="item cloned">
+                                                <div class="pic part-9">
+                                                    <a class="box-content" target="_blank" href="https://www.speedspot.net/Projects">
+                                                    </a>
+                                                </div> 
+                                            </div>
+                                            <div class="item cloned">
+                                                <div class="pic part-10">
+                                                    <a class="box-content" target="_blank" href="https://aast.edu/en/">
+                                                    </a>
+                                                </div> 
+                                            </div>
+                                 
+                                 </div>
+                                <a class="circle ini-customPrevBtn" id="team-circle-left">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a class="circle ini-customNextBtn" id="team-circle-right">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+               </div>
+        </div>
+    <div class="section py-5 p-md-0 contact" id="contact" data-anchor="contact" >
+            <div class="container">
+                <div class="row pb-5">
+                    <div class="col-12 col-md-7">
+                        <h3 class="main-font text-uppercase"><span class="text-yellow d-block text-uppercase"> Contact Me </span> <span> Lets Get In Touch </span></h3>
+                        <p class="py-2 alt-font">I am available all the time for any project acording to my skills.</p>
+                    </div>
+                    <div class="col-12 col-md-5 text-md-right pt-4 pt-md-0">
+                        <div class="text-end sidebar_btn">
+                            <a href="MohammedHamdiFrontend-Angular.pdf" target="_blank" download class="btn btn-medium btn-rounded btn-yellow text-capitalize">Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+              
+
+                <div class="box">
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <div>
+                                <h4 class="text-uppercase main-font text-yellow">Email :</h4>
+                                <p class="alt-font main-font">muhammedhamdi022@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3">
+                            <div>
+                                <h4 class="text-uppercase main-font text-yellow">Address :</h4>
+                                <p class="alt-font main-font">Cairo , Egypt</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3">
+                            <div>
+                                <h4 class="text-uppercase main-font text-yellow">What's App :</h4>
+                                <p class="alt-font main-font">01126473136</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+    </div>
+</div>
+    
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.pagepiling.min.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+<!-- Mirrored from mohamedyossry.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jul 2024 17:10:41 GMT -->
+</html>
