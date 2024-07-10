@@ -966,10 +966,15 @@ header a.logo img {
 }
 
 .home .homeBox img {
-  width: 85%;
+  width: 62%;
+  margin: auto;
+  text-align: center;
+  display: block;
+  border-radius: 14%;
   position: absolute;
-  bottom: 0;
   right: 0;
+  bottom: 40px;
+  mix-blend-mode: luminosity;
 }
 
 .about h1 {
