@@ -1545,6 +1545,9 @@ header a.logo img {
 .portfolio .part-10 {
   background-image: url("../img/portfolio/part10.png");
 }
+.portfolio .part-11 {
+  background-image: url("../img/portfolio/part11.png");
+}
 
 .portfolio .pic:hover {
   background-position-y: 100%;
