@@ -188,3 +188,51 @@ jQuery(function ($) {
     $('.dateNow').text(new Date().getFullYear())
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const btn = document.getElementById('sendMail');
+
+document.getElementById('formMail')
+.addEventListener('submit', function(event) {
+    event.preventDefault();
+    let from_name  = document.querySelector("#from_name");
+    let message  = document.querySelector("#message");
+    let email_from  = document.querySelector("#email_from");
+    if (from_name.value != '' && message.value != '' && email_from.value != '' ) {
+        btn.value = 'Sending...';
+            emailjs.send("hamdey77","template_2i6altw",{
+            from_name:document.querySelector('#from_name').value,
+            to_name: "Muhammed Hamdi",
+            message: `${document.querySelector('#email_from').value}
+                ${document.querySelector('#message').value}`,
+            from_email: document.querySelector('#email_from').value,
+            to_email: document.querySelector('#email_to').value,
+        }).then(res=>{
+            if (res.status == 200 && res.text == "OK") {
+                btn.value = 'Send Email';
+                toastr.success('Success', 'Message is Sent Thank You')
+            }
+        },
+        (error)=>{
+            toastr.error('Error', error)
+        }
+        )
+    }else{
+        toastr.error('Please Type All Field','Error',{
+            "timeOut": "5000",
+        })
+    }
+});
