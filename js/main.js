@@ -223,7 +223,7 @@ document.getElementById('formMail')
         }).then(res=>{
             if (res.status == 200 && res.text == "OK") {
                 btn.value = 'Send Email';
-                toastr.success('Success', 'Message is Sent Thank You')
+                toastr.success('Message is Sent Thank You','Success')
             }
         },
         (error)=>{
